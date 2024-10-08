@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Professional\source\repos\EntityFramework\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ConnectionForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomersList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MenuForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PurchaseForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PurchasesList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ConnectionForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomersList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MenuForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PurchaseForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PurchasesList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

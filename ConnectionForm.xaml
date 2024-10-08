@@ -1,0 +1,48 @@
+﻿<Window x:Class="EntityFramework.ConnectionForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Подключение"
+        Height="300" Width="400"
+        MaxHeight="300" MaxWidth="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="155"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>                       
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Строка подключения"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Bottom"
+                   Margin="30,0,0,0"
+                   Grid.Row="1"/>
+        <TextBox Text="{Binding ConnectionString}"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Bottom"
+                 Margin="30,0,0,0"
+                 Grid.Row="2"            
+                 Height="150"
+                 Width="340"            
+                 IsEnabled="False"
+                 TextWrapping="Wrap"/>
+        <TextBlock Text="Статус подключения"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Bottom"
+                   Margin="30,0,0,0"
+                   Grid.Row="3"/>
+        <TextBox Text="{Binding ConnectionStatus}"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Bottom"
+                 Margin="30,0,0,0"
+                 Grid.Row="4"            
+                 Height="20"
+                 Width="340"            
+                 IsEnabled="False"/>             
+    </Grid>
+</Window>
